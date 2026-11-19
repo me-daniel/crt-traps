@@ -14,7 +14,7 @@ The two plans in `docs/` are the versions as committed after the runs. This fold
 
 ## What changed after the first call
 
-Study 1 (B): nothing but the header line.
+Study 1 (B) changed only in its header line.
 
 Study 2 (A), three changes:
 
