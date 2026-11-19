@@ -39,8 +39,7 @@ uv run pytest -q     # offline
 | `runs/<name>/` | One row per call: prompt, reply, served model, usage, reasoning tokens, timestamp. `manifest.json` pins the plan. |
 | `src/harness/` | The harness: model backends, resumable runner, scoring. |
 | `paper/` | The report; `paper/generated/` holds every table and number macro. |
-
-Code comments cite the study plans (`docs/study-a-concept.md`, `docs/study-b-concept.md`). They fixed the hypotheses and decision rules before the main runs and are not part of this repository.
+| `docs/` | The study plans as committed after the runs; `docs/plans/` holds the earlier versions, the versions each study started on, and a timeline of what changed. |
 
 ## Benchmark canary
 
