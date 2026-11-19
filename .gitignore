@@ -1,0 +1,37 @@
+# --- Secrets & credentials ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*service-account*.json
+.secrets/
+
+# --- AI assistant: kept local in this public repo (claude-dir: local) ---
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/handoff.md
+.claude/handoff.pending
+.mcp.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+dist/
+build/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# --- LaTeX: paper/main.pdf is committed so readers get the report without a build ---

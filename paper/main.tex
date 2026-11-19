@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs,graphicx,hyperref}
+\usepackage[numbers]{natbib}
+\usepackage[section]{placeins} % floats stay inside their section
+\graphicspath{{generated/}{figures/}}
+
+\title{Do language models report more reasoning when a familiar procedure gives the wrong answer?}
+\author{Daniel Menzel\\\texttt{dmenzel@uos.de}}
+\date{November 2026}
+
+\input{generated/crt-a-numbers}
+\input{generated/crt-b-numbers}
+
+\begin{document}
+\maketitle
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/method}
+\input{sections/results}
+\input{sections/discussion}
+
+{\small
+\bibliographystyle{plainnat}
+\bibliography{refs}}
+\end{document}
