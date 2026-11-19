@@ -13,7 +13,8 @@ figures:
 	$(PY) experiments/crt-concept.py
 	$(PY) experiments/crt-figures.py
 	$(PY) experiments/crt-graphs.py
-	pdftoppm -png -r 150 -singlefile paper/figures/fig-results.pdf paper/figures/fig-results  # README image (poppler)
+	pdftoppm -png -r 150 -singlefile paper/figures/fig-concept.pdf paper/figures/fig-concept  # README images (poppler)
+	pdftoppm -png -r 150 -singlefile paper/figures/fig-results.pdf paper/figures/fig-results
 	pdftoppm -png -r 150 -singlefile paper/figures/fig-results.pdf paper/figures/fig-results
 
 items:
