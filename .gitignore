@@ -35,3 +35,4 @@ build/
 *.log
 
 # --- LaTeX: paper/main.pdf is committed so readers get the report without a build ---
+reviews/
